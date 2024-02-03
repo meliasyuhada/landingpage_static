@@ -1,0 +1,17 @@
+Cara Menjalankan Website
+
+1. Ekstrak Zip Website
+2. Buka Text Editor (VCS)
+3. Open folder yang di ekstrak tadi
+4. Pilih file html
+5. klik kanan open with live server.
+
+maka tampilan website yang dibuat akan tampil di browser.
+
+Atau dengan cara lain, yaitu:
+1. Ekstrak Zip Website
+2. Masuk ke folder website
+3. Pilih file index.html
+4. Klik Kanan pilih open melalui browser chrome.
+
+maka tampilan website yang dibuat akan tampil di browser.

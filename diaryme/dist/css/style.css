@@ -1,0 +1,249 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 100px;
+}
+
+.disama {
+    color: #8CCBCB;
+}
+.dibeda {
+    color: white;
+}
+/* header start */
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 50px;
+    margin-left: 55px;
+}
+
+
+.navbar .logo img {
+    width: 120px;
+}
+
+.navbar .navbar-list{
+    margin-left: 620px;
+}
+
+.navbar .navbar-list li {
+    display: inline;
+    padding: 15px;
+}
+
+.navbar .navbar-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar .navbar-list li a:hover {
+    color: #8CCBCB;
+}
+/* header end */
+
+/* hero start */
+#hero {
+    width: 100%;
+}
+   
+#hero .box .box1 img{
+    width: 400px;
+    height: 350px;
+    justify: between;
+    float: right;
+}
+#hero .box .box2 {
+    width: 500px;
+
+}
+
+#hero .box .box2 p {
+    font-size: 1.5em;
+
+}
+#hero .sosial-media ul li {
+    display: inline;
+    padding: 5px;
+}
+
+#hero .sosial-media ul li a {
+    text-decoration: none;
+}
+
+#hero .sosial-media ul li img{
+    width: 30px;
+}
+
+/* hero end */
+
+/* about */
+#about {
+    padding: 20px;
+}
+#about .judul-about {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#about .box .box1 img{
+    width: 300px;
+    height: 350px;
+    justify: between;
+    float: left;
+    margin-left: 100px;
+}
+
+#about .box .box2 {
+    width: 500px;
+    margin-left: 600px;
+}
+
+#about .box .box2 p {
+    font-size: 1.5em;
+}
+/* about end */
+
+/* product start */
+#product .judul-about {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#product .produk-buku, .produk-buku2, .produk-buku3, .produk-buku4, .produk-buku5, .produk-buku6, .produk-buku7, .produk-buku8 {
+    width: 270px;
+    float: left;
+}
+#product  .gambar{
+    width: 250px;
+}
+/* product end */
+
+/* contact start */
+#contact {
+    margin-bottom: 200px;
+}
+#contact .judul-about {
+    text-align: center;
+    font-size: 1.5em;
+}
+#contact .box-form {
+    text-align: left;
+    width: 100%;
+    height: 180px;
+    padding : 10px;
+    position: center;
+}
+
+#contact input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+/* contact end */
+
+/* footer start */
+.footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: #8CCBCB;
+}
+/* footer end */
+
+/* Medium devices (768px dan di bawahnya) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .navbar {
+    flex-direction: column;
+    margin-left: -40px;
+    }
+    #header .navbar .logo img {
+        width: 100px;
+        
+    }
+    .navbar .navbar-list{
+        margin-left: -20px;
+    }
+    .navbar .navbar-list li {
+        display: inline;
+        padding: 15px;
+        column-gap: 0.5rem;
+    }
+    #hero .judul-about {
+        margin-left: 10px;
+    }
+
+    #hero .container .box .box1 img{
+        width: 300px;
+        height: 350px;
+        justify: between;
+        float: right;
+    }
+    #hero .container .box .box2 {
+        width: 360px;
+    }
+    
+    #hero .container .box .box2 p {
+        font-size: 1em;
+    }
+    
+    #about .container .box .box2 {
+        width: 360px;
+        margin-left: 0px;
+        float: left;
+    }
+
+    #about .box .box1 img {
+        width: 300px;
+        height: 350px;
+        margin-left: 60px;
+
+    }
+    
+    #about .container .box .box2 p {
+        font-size: 1em;
+    }
+
+    #product .produk-buku, .produk-buku2, .produk-buku3, .produk-buku4, .produk-buku5, .produk-buku6, .produk-buku7, .produk-buku8 {
+        width: 300px;
+    }
+    #product  .gambar{
+        width: 300px;
+        
+    }
+    .footer {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        background-color: #8CCBCB;
+    }
+
+}
